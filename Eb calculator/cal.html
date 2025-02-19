@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="logo.webp">
+       
+        <ul>
+           
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Calculator</a></li>
+            <li><a href="table.html">Table</a></li>
+        </ul>
+        
+    </div>
+
+    <div class="cal-two">
+        <h1>Electricity Bill Calculator</h1>
+      <p>Use our interactive electricity bill calculator to get an accurate estimate of your monthly electricity costs. Simply input your usage details, and our calculator will do the rest. This tool helps you understand where your money is going and how you can start saving.</p>
+      <div class="reading">
+        <h1>EB calculator</h1>
+        <input type="number" id="pre" placeholder="Previous Reading"><br>
+        <input type="number" id="cur" placeholder="Current Reading"><br>
+        <button class="cal" onclick="etb()">Calculate</button><br>
+        <button class="cle"  onclick="handleClear()" >Clear</button><br>
+
+     
+        <p id="to"></p> 
+      </div>
+    </div>
+    <div class="guide">
+        <h1>Guidelines</h1>
+        <p><span></span>Put last month's reading as the previous reading.</p>
+        <p><span></span>Check the current reading on your meter and put it in the current reading.</p>
+        <p><span></span>This will only calculate for home use.</p>
+
+      
+
+    </div>
+    <footer>
+        <img src="logo.webp">
+        <h3>Contact us</h3>
+        <a><i class="fa-brands fa-instagram"></i></a>
+        <a><i class="fa-solid fa-envelope"></i></a>
+        <a><i class="fa-brands fa-whatsapp"></i></a>
+      
+        <h4>If you'r facing any bug or issue while using this site feel free to contact</h4>
+        <h4>Copyright 2024. All rights reserved.</h4>
+    </footer>
+</body>
+</html>
